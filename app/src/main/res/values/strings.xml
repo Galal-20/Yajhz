@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Yajhz</string>
+    <string name="log_in">LOG IN</string>
+    <string name="email">Email.</string>
+    <string name="write_your_email">Write Your Email</string>
+    <string name="write_8_character_at_least">Write 8 character at least</string>
+    <string name="password">Password.</string>
+    <string name="forget_the_password">Forget the Password ?</string>
+    <string name="log_in_bt">Log in</string>
+    <string name="don_t_have_an_account">Don’t have an account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name.</string>
+    <string name="write_14_character">Write 14 character</string>
+    <string name="phone_number">Phone Number.</string>
+    <string name="write_11_character">Write 11 character</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="write_your_password_again">Write your password again</string>
+    <string name="have_an_account">have an account ?</string>
+    <string name="log_in_text">Log in</string>
+    <string name="home">Home</string>
+    <string name="hello">Hello Ahmed</string>
+    <string name="location">Riyadh ( 15 -Jasmine neighbo...</string>
+    <string name="sfff">Search for fav food ...</string>
+    <string name="categories">Categories.</string>
+    <string name="view_all">View all</string>
+    <string name="popular_now">Popular now</string>
+    <string name="trending_now">Trending now</string>
+    <string name="locationPop">location</string>
+    <string name="_4_3">4.3</string>
+</resources>

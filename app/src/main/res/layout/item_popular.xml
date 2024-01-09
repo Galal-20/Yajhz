@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="190dp"
+    android:layout_height="170dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="19dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imagePop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameItemPop"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationPop"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/locationPop"/>
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:id="@+id/rate1"
+        android:src="@drawable/rate"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        />
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:id="@+id/rate2"
+        android:src="@drawable/rate"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        />
+
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:id="@+id/rate3"
+        android:src="@drawable/rate"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        />
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:id="@+id/rate4"
+        android:src="@drawable/rate"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="120dp"
+        />
+
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:id="@+id/rate5"
+        android:src="@drawable/img"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="120dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textRate"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/_4_3"
+        android:textSize="8sp"
+        tools:ignore="SmallSp" />
+
+
+</androidx.cardview.widget.CardView>

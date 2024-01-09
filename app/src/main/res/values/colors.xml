@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Cadmium_Green">#097969</color>
+    <color name="login">#BA935C</color>
+    <color name="view">#FFC107</color>
+    <color name="hint">#808080</color>
+</resources>
