@@ -1,6 +1,7 @@
 package com.galal.yajhz.UI
 
 import android.app.Activity
+import android.app.AlertDialog
 import android.content.Intent
 import android.location.Geocoder
 import android.location.Location
@@ -55,11 +56,26 @@ class MainActivity : AppCompatActivity(), AirLocation.Callback {
         observedTrendingLiveData()
 
         location()
-
-
-
+        bind()
 
     }
+
+    private fun bind() {
+        binding.imageBack.setOnClickListener {
+            val dialog = AlertDialog.Builder(this)
+                .setTitle("Close.")
+                .setMessage("Do you want exit?")
+                .setPositiveButton("Yes"){_,_ ->
+                    onBackPressed()
+                }
+                .setNegativeButton("No"){_,_ ->
+                    Toast.makeText(this,"Enjoy...",Toast.LENGTH_SHORT).show()
+                }
+                .create()
+                dialog.show()
+        }
+    }
+
 
     private fun prepareCategoryItemRecycleView() {
         binding.recycleC.apply{

@@ -59,7 +59,9 @@ class Login : AppCompatActivity() {
         }
 
         binding.textSignUp.setOnClickListener {
-            Intent(this, Sign_Up::class.java).also { startActivity(it) }
+            Intent(this, Sign_Up::class.java).also {
+                startActivity(it)
+            finish()}
         }
     }
 

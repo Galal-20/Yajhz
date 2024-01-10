@@ -63,7 +63,10 @@ class Sign_Up : AppCompatActivity() {
             }
         }
         binding.textLogin.setOnClickListener {
-            Intent(this, Login::class.java).also { startActivity(it) }
+            Intent(this, Login::class.java).also {
+                startActivity(it)
+                finish()
+            }
         }
     }
 }
